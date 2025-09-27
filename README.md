@@ -25,7 +25,7 @@ For example, `cargo run frog poem.txt` should return one line to the terminal *"
 To ignore case, you can pass the environment variable `IGNORE_CASE=1` either with a `.env` file or directly in the terminal.
 
 
-# Debugging
+# debugging
 
 Standard output (`stdout`) is either written to file `> output.txt` or to console if output path omitted. Error messages (`stderr`) are always written to console.
 
