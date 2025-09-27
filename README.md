@@ -1,8 +1,4 @@
-Simple version of classic command line utility `grep` from Rust handbook
-
----
-
-# intro
+# introduction
 
 **Idea**: `grep` searches a specified file for a specified string and prints any lines with that string.
 
