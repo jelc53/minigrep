@@ -22,7 +22,7 @@ To run the program from source, use the following commands:
 
 For example, `cargo run frog poem.txt` should return one line to the terminal *"How public, like a frog"*.
 
-To ignore case, you can pass the environment variable `IGNORE_CASE` either with a `.env` file or directly in the terminal.
+To ignore case, you can pass the environment variable `IGNORE_CASE=1` either with a `.env` file or directly in the terminal.
 
 
 # Debugging
