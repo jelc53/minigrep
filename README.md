@@ -5,6 +5,7 @@
 **Main features include**:
 - Takes command line arguments of a file path and a string
 - Read environment variables to allow user to configure behaviour
+- Project structured into modules and crates (binary and library) to match rust best practices
 - Print error messages to the standard error console stream (`stderr`) instead of standard output (`stdout`) so that user can redirect successful output to a file while still seeing error messages onscreen
 
 
