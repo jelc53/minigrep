@@ -19,3 +19,15 @@ To run the program from source, use the following commands:
 
 - *query* is the text string you are searching for
 - *file_path* is the path (from root directory) to the file you wish to search
+
+For example, `cargo run frog poem.txt` should return one line to the terminal *"How public, like a frog"*.
+
+To ignore case, you can pass the environment variable `IGNORE_CASE` either with a `.env` file or directly in the terminal.
+
+
+# Debugging
+
+Standard output (`stdout`) is either written to file `> output.txt` or to console if output path omitted. Error messages (`stderr`) are always written to console.
+
+Before making any changes, run `cargo test` from the project root directory to ensure current tests are passing.
+
