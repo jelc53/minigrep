@@ -29,5 +29,5 @@ To ignore case, you can pass the environment variable `IGNORE_CASE=1` either wit
 
 Standard output (`stdout`) is either written to file `> output.txt` or to console if output path omitted. Error messages (`stderr`) are always written to console.
 
-Before making any changes, run `cargo test` from the project root directory to ensure current tests are passing.
+All contributions should follow a TDD approach. Before making any changes, run `cargo test` from the project root directory to ensure current tests are passing.
 
