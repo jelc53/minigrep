@@ -1,6 +1,6 @@
 # introduction
 
-**Idea**: `grep` searches a specified file for a specified string and prints any lines with that string. This repo is a first draft version of this well-known utility.
+**Idea**: `grep` searches a specified file for a specified string and prints any lines with that string.
 
 **Main features include**:
 - Takes command line arguments of a file path and a string
